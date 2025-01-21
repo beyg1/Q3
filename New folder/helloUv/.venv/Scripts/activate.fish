@@ -91,8 +91,8 @@ set -gx PATH "$VIRTUAL_ENV"'/Scripts' $PATH
 
 # Prompt override provided?
 # If not, just use the environment name.
-if test -n 'hellouv'
-    set -gx VIRTUAL_ENV_PROMPT 'hellouv'
+if test -n 'helloUv'
+    set -gx VIRTUAL_ENV_PROMPT 'helloUv'
 else
     set -gx VIRTUAL_ENV_PROMPT (basename "$VIRTUAL_ENV")
 end

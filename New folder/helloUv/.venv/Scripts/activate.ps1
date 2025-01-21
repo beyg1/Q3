@@ -58,8 +58,8 @@ deactivate -nondestructive
 $VIRTUAL_ENV = $BASE_DIR
 $env:VIRTUAL_ENV = $VIRTUAL_ENV
 
-if ("hellouv" -ne "") {
-    $env:VIRTUAL_ENV_PROMPT = "hellouv"
+if ("helloUv" -ne "") {
+    $env:VIRTUAL_ENV_PROMPT = "helloUv"
 }
 else {
     $env:VIRTUAL_ENV_PROMPT = $( Split-Path $env:VIRTUAL_ENV -Leaf )

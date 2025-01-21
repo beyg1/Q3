@@ -21,7 +21,7 @@
 
 @for %%i in ("D:\Q3\New folder\helloUv\.venv") do @set "VIRTUAL_ENV=%%~fi"
 
-@set "VIRTUAL_ENV_PROMPT=hellouv"
+@set "VIRTUAL_ENV_PROMPT=helloUv"
 @if NOT DEFINED VIRTUAL_ENV_PROMPT (
     @for %%d in ("%VIRTUAL_ENV%") do @set "VIRTUAL_ENV_PROMPT=%%~nxd"
 )

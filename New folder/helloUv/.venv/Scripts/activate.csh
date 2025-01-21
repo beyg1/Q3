@@ -38,8 +38,8 @@ setenv PATH "$VIRTUAL_ENV:q/Scripts:$PATH:q"
 
 
 
-if ('hellouv' != "") then
-    setenv VIRTUAL_ENV_PROMPT 'hellouv'
+if ('helloUv' != "") then
+    setenv VIRTUAL_ENV_PROMPT 'helloUv'
 else
     setenv VIRTUAL_ENV_PROMPT "$VIRTUAL_ENV:t:q"
 endif

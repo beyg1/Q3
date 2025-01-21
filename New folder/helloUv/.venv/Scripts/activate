@@ -84,8 +84,8 @@ _OLD_VIRTUAL_PATH="$PATH"
 PATH="$VIRTUAL_ENV/Scripts:$PATH"
 export PATH
 
-if [ "xhellouv" != x ] ; then
-    VIRTUAL_ENV_PROMPT="(hellouv) "
+if [ "xhelloUv" != x ] ; then
+    VIRTUAL_ENV_PROMPT="(helloUv) "
 else
     VIRTUAL_ENV_PROMPT="($(basename "$VIRTUAL_ENV")) "
 fi
