@@ -10,8 +10,9 @@ requires-python = ">=3.12"
 dependencies = []
 
 [project.scripts]
-firstuv = "firstuv:main"            (default __init.py___ file selected)
-newScript = "firstuv.hello:hello"    (hello.py file selected)
+firstuv = "firstuv:main"            #(default __init.py___ file selected)
+newScript = "firstuv.hello:hello"    #(hello.py file selected)   // These are in the project folder inside scripts
+out = "outside:from_outside"        #This one is directly in src and not in project directory
 
 [build-system]
 requires = ["hatchling"]
