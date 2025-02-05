@@ -1,0 +1,19 @@
+[project]
+name = "project1"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "beyg1", email = "abdulrubbaig1@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+project1 = "project1:main2"    # main & main2 2 diff functions in default .py file
+projectx = "project1.hello:fun" # hello.py in project1 but not default __init__.py file
+out = "outside:fun2" # Not in originally created project1 inside of src.
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
