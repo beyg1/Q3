@@ -2,7 +2,7 @@ from litellm import completion
 import os
 
 
-os.environ["GEMINI_API_KEY"] = "wV2fADEJB7qGLKBZneegg" # messedup api key
+os.environ["GEMINI_API_KEY"] = "" 
 
 
 

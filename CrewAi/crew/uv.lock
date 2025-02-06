@@ -433,10 +433,14 @@ version = "0.1.0"
 source = { editable = "." }
 dependencies = [
     { name = "crewai" },
+    { name = "litellm" },
 ]
 
 [package.metadata]
-requires-dist = [{ name = "crewai", specifier = ">=0.100.1" }]
+requires-dist = [
+    { name = "crewai", specifier = ">=0.100.1" },
+    { name = "litellm", specifier = ">=1.59.8" },
+]
 
 [[package]]
 name = "crewai"
