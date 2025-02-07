@@ -5,3 +5,6 @@ uv add crewai then start working in new main.py files with python decorators, im
 update scripts in .toml file, then run through uv. uv run project-name.
 up until main function, we have made our first crewai flow, a pretty basic one.
 
+in chaining.py we learned to chain the prompts with a flow using basic decorators. this flow is static
+in main1.py  we learned about router decorator, it's kinda like async programming where code doesnt have to run step
+by step, instead it runs the step based on logic.

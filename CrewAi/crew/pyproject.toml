@@ -16,6 +16,8 @@ dependencies = [
 crew = "crew:main"  # running main function from default file __init__.py
 crew2 = "crew.main:main2" # running main2 function from main.py
 prompt_chain = "crew.chaining:kickoff"
+routerFlow = "crew.main1:kickoff"
+plotFlow = "crew.main1:plot"
 
 
 [build-system]
